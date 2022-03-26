@@ -11,8 +11,18 @@ const Shop = () => {
         .then(data => setFoods(data))
     },[]);
     const handleAddToCart =(food)=>{
-        // console.log(food);
-        const newCart = [...cart, food];
+        //  console.log(food);
+        let newCart = [];
+        const exists = cart.find(product => product.id === food.id);
+        if(!exists){
+            food.item = 1;
+            newCart = [...cart, food];
+        }
+        else{
+            const rest = cart.filter(product => product.id !== food.id);
+            exists.item = exists.item + 1;
+            newCart = [...rest, exists];
+        }
         setCarts(newCart);
     }
     return (
@@ -20,7 +30,7 @@ const Shop = () => {
         <div className="foods-container">
             {
                 foods.map(food=> <Foods
-                    key = {food.id}
+                    key={food.id}
                     food={food}
                     handleAddToCart ={handleAddToCart}
                 ></Foods> )
@@ -34,7 +44,7 @@ const Shop = () => {
                     <p>{item.name}</p>
                  ))}
                 <button >Choose 1 for Me</button>
-                <button onClick={0} >Reload Again</button>
+                <button>Reload Again</button>
             </div>
             
           

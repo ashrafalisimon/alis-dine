@@ -27,6 +27,16 @@
 .App-link {
   color: #61dafb;
 }
+.ques-container{
+  margin: 30px 50px;
+
+}
+.ques-container h4{
+  font-size: 25px;
+}
+.ques-container p{
+  font-size: 18px;
+}
 
 @keyframes App-logo-spin {
   from {
