@@ -1,0 +1,71 @@
+[
+  {
+    "id": "abc001",
+    "name": "Shawarma Fried Potatoes",
+    "price": 90,
+    "ratings": 4,
+    "img": "https://img.freepik.com/free-photo/side-view-shawarma-with-fried-potatoes-board-cookware_176474-3215.jpg"
+  },
+  
+  {
+    "id": "acb002",
+    "name": "Doner Fried Potatoes Ayran",
+    "price": 110,
+    "ratings": 4.2,
+    "img": "https://img.freepik.com/free-photo/side-view-doner-with-fried-potatoes-ayran-board-cookware_176474-3065.jpg"
+  },
+
+  {
+    "id": "adb003",
+    "name": "Pizza Slices Bell Pepper",
+    "price": 199,
+    "ratings": 4,
+    "img": "https://img.freepik.com/free-photo/side-view-pizza-with-slices-bell-pepper-pizza-slices-flour-board-cookware_176474-3185.jpg"
+  },
+  {
+    "id": "abd004",
+    "name": "Mixed Ingredient Pizza Wooden",
+    "price": 149,
+    "ratings": 4.8,
+    "img": "https://img.freepik.com/free-photo/mixed-ingredient-pizza-wooden-board_114579-9317.jpg"
+  },
+  {
+    "id": "aeb005",
+    "name": "Adana Kebab With Rice Fried Vegetable",
+    "price": 290,
+    "ratings": 4.8,
+    "img": "https://img.freepik.com/free-photo/top-view-adana-kebab-with-rice-fried-vegetables-chopped-onion-ayran-white-plate_176474-3280.jpg"
+  },
+  
+  {
+    "id": "aec006",
+    "name": "Beyti Kebab with Yogurt Parsley Salad",
+    "price": 250,
+    "ratings": 4.1,
+    "img": "https://img.freepik.com/free-photo/top-view-beyti-kebab-with-yogurt-parsley-salad-white-plate_176474-3292.jpg"
+  },
+
+  {
+    "id": "aed007",
+    "name": "Lule Kebab with Tomato Onion",
+    "price": 320,
+    "ratings": 4.3,
+    "img": "https://img.freepik.com/free-photo/top-view-lule-kebab-with-tomato-onion-ayran_176474-3399.jpg"
+  },
+
+  {
+    "id": "aea008",
+    "name": "Sandwich with Salted Cucumbers",
+    "price": 70,
+    "ratings": 4.3,
+    "img": "https://img.freepik.com/free-photo/side-view-club-sandwich-with-salted-cucumbers-lemon-olives-round-white-plate_176474-3049.jpg"
+  },
+  {
+    "id": "aee009",
+    "name": "Burger With Veggies Meat",
+    "price": 120,
+    "ratings": 4,
+    "img": "https://img.freepik.com/free-photo/front-view-burger-with-veggies-meat_23-2148868238.jpg"
+  }
+  
+]

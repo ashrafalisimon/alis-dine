@@ -1,0 +1,21 @@
+.header{
+    background-color: #f1c40f;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;   
+    padding: 0 140px;
+}
+.menu-bar a{
+    text-decoration: none;
+    font-size: 17px;
+    color: #000;
+    margin-left: 36px;
+    transition: 0.3s;
+}
+.main-heading h1{
+    font-family:'Franklin Gothic Medium';
+    font-size: 55px;
+    font-weight: 500;
+    text-align: center;
+}
