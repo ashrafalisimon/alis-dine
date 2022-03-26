@@ -12,3 +12,33 @@
     background-color: #f1c40f;
     border-radius: 20px;
 }
+.cart-container{
+    margin: 0 10px;
+    text-align: center;
+}
+.cart-container h2{
+    font-size: 24px;
+}
+.cart-container p{
+    font-size: 20px;
+}
+.cart-container button{
+    background-color: #2c3e50;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    padding: 10px 12px;
+    margin-right: 07px;
+    margin-top: 10px;
+    font-size: 13px;
+}
+
+@media (max-width: 576px) { 
+    .shop-container{
+        grid-template-columns: 1fr;
+    }
+    .foods-container{
+        grid-template-columns: repeat(1, 1fr);
+        margin: 0px;
+    }
+ }

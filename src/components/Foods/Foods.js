@@ -5,7 +5,7 @@ import './Foods.css';
 
 const Foods = (props) => {
     const {food, handleAddToCart} =  props;
-    const {name,price, img, ratings} = food;
+    const {name,price, img} = food;
     return (
         <div className='card'>
            <div className="imgBox">
@@ -14,7 +14,6 @@ const Foods = (props) => {
             <div className="contentBox">
                 <h3>{name}</h3>
                 <h4>Price: ${price}</h4>
-                <p>Rating: {ratings} Star </p>
             </div>
             <button onClick={()=> handleAddToCart(food)} className='card-btn' > <span>Add to Card</span>  
              <FontAwesomeIcon icon={faShoppingCart}></FontAwesomeIcon> </button>
