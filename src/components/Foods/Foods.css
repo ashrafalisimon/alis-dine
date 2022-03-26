@@ -1,0 +1,50 @@
+.card{
+    width: 320px;
+    height: 508px;
+    border: 1px solid #95A0A7;
+    border-radius: 8px;
+    position: relative;
+}
+.imgBox img{
+    width: 306px;
+    height: 286px;
+    margin: 7px;
+    border-radius: 8px ;
+}
+.contentBox{
+    padding-left: 14px;
+    color: #0E161A;
+}
+.contentBox h3, h4, p{
+    margin-bottom: 0;
+}
+.contentBox h3{
+    font-size: 21px;
+    margin-top: 06px ;
+}
+.contentBox h4{
+    font-size: 17px;
+    margin-top: 10px;
+}
+.contentBox p{
+    font-size: 12px;
+    margin-top: 11px;
+}
+.card-btn{
+    width: 100%;
+    background-color: #2c3e50;
+    font-size: 15px;
+    border-radius: 0 0 08px 08px;
+    position: absolute;
+    border: none;
+    padding:  14px 0;
+    bottom: 0;
+    transition: .5s;
+    color: #fff;
+}
+.card-btn:hover{
+    background-color: #f1c40f;
+}
+.card-btn span{
+    margin-right: 5px ;
+}

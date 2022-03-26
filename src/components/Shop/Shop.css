@@ -1,0 +1,14 @@
+.shop-container{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+.foods-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 45px;
+    margin: 0px 50px;
+}
+.summary-container{
+    background-color: #f1c40f;
+    border-radius: 20px;
+}
